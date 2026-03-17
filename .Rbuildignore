@@ -1,0 +1,16 @@
+^_archive$
+^benchmark_ase\.R$
+^build_heterogeneity_atlas\.R$
+^output$
+^data$
+^PLOS_ONE_Manuscript_ASE\.md$
+^paper$
+^run_tests\.R$
+^timing_test\.R$
+^generate_figure1\.R$
+^generate_supplementary_figs\.R$
+^generate_supplementary_tables\.R$
+^\.Rbuildignore$
+^README\.md$
+^PROTOCOL_ASE\.md$
+^MULTIPERSON_REVIEW\.md$

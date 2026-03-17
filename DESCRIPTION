@@ -1,0 +1,23 @@
+Package: HeterogeneityASE
+Type: Package
+Title: Adaptive Shrinkage Estimator for Meta-Analysis Heterogeneity
+Version: 0.3.0
+Depends: R (>= 4.0.0)
+Authors@R: person("Mahmood Ul", "Hassan",
+    email = "CORRESPONDING_EMAIL_PLACEHOLDER",
+    role = c("aut", "cre"),
+    comment = c(ORCID = "ORCID_PLACEHOLDER"))
+Description: Implements a conflict-aware Empirical Bayes shrinkage estimator
+    for inter-study heterogeneity (tau-squared) in meta-analysis. Uses
+    outcome-specific priors derived from 17,236 Cochrane meta-analyses
+    (Pairwise70 dataset) to stabilize estimation in small-sample scenarios.
+    Supports the Hartung-Knapp-Sidik-Jonkman adjustment for pooled effects.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Imports:
+    metafor (>= 4.0.0),
+    data.table
+Suggests:
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+RoxygenNote: 7.2.3
