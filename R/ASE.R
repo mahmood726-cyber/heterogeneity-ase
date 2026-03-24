@@ -51,7 +51,8 @@
     candidates <- c(
       "inst/extdata/granular_priors.csv",
       "../inst/extdata/granular_priors.csv",
-      "R/../inst/extdata/granular_priors.csv"
+      "R/../inst/extdata/granular_priors.csv",
+      "../../inst/extdata/granular_priors.csv"
     )
     for (cp in candidates) {
       cp_norm <- tryCatch(normalizePath(cp, mustWork = TRUE), error = function(e) "")

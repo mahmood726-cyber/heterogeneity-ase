@@ -3,12 +3,23 @@
 ################################################################################
 
 # Source ASE directly for testing without package install
+# Try multiple strategies to find the R/ directory
+source_dir <- NULL
+# Strategy 1: sys.frame (works when sourced directly)
 source_dir <- tryCatch({
-  normalizePath(file.path(dirname(sys.frame(1)$ofile), "..", "..", "R"), mustWork = FALSE)
-}, error = function(e) {
-  normalizePath(file.path(getwd(), "R"), mustWork = FALSE)
-})
-if (file.exists(file.path(source_dir, "ASE.R"))) {
+  normalizePath(file.path(dirname(sys.frame(1)$ofile), "..", "..", "R"), mustWork = TRUE)
+}, error = function(e) NULL)
+# Strategy 2: getwd() (works when run_tests.R sets cwd to project root)
+if (is.null(source_dir)) {
+  candidate <- normalizePath(file.path(getwd(), "R"), mustWork = FALSE)
+  if (file.exists(file.path(candidate, "ASE.R"))) source_dir <- candidate
+}
+# Strategy 3: testthat test directory is tests/testthat, so go up 2 levels
+if (is.null(source_dir)) {
+  candidate <- normalizePath(file.path(getwd(), "..", "..", "R"), mustWork = FALSE)
+  if (file.exists(file.path(candidate, "ASE.R"))) source_dir <- candidate
+}
+if (!is.null(source_dir) && file.exists(file.path(source_dir, "ASE.R"))) {
   source(file.path(source_dir, "ASE.R"))
 }
 
