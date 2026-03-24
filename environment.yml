@@ -1,0 +1,8 @@
+name: heterogeneityase-reviewer
+channels:
+  - conda-forge
+dependencies:
+  - r-base=4.3
+  - r-metafor
+  - r-data.table
+  - r-testthat

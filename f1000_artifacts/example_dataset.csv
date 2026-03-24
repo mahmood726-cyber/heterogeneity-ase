@@ -1,0 +1,5 @@
+outcome_type,outcome_class,N,mean_tau2,var_tau2,median_tau2
+binary,objective,2185,0.096025,0.129553,0.000000
+binary,other,12682,0.138632,0.287596,0.000000
+binary,subjective,1843,0.070622,0.104436,0.000000
+continuous,objective,171,1.896551,153.596748,0.024898
