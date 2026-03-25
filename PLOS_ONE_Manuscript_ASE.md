@@ -1,10 +1,10 @@
 # The adaptive shrinkage estimator for heterogeneity in small-sample meta-analysis: an empirical Bayes approach using outcome-specific priors from 17,236 Cochrane meta-analyses
 
-Mahmood Ul Hassan [ORCID_PLACEHOLDER]
+Mahmood Ahmad 0009-0003-7781-4478
 
 Independent Researcher, [CITY_COUNTRY_PLACEHOLDER]
 
-Corresponding author email: [CORRESPONDING_EMAIL_PLACEHOLDER]
+Corresponding author email: mahmood.ahmad2@nhs.net
 
 ## Abstract
 
@@ -245,7 +245,7 @@ This study involved computational simulations and analysis of publicly available
 
 ## Author contributions
 
-Mahmood Ul Hassan: Conceptualization, Methodology, Software, Formal analysis, Investigation, Data curation, Writing -- original draft, Writing -- review & editing, Visualization.
+Mahmood Ahmad: Conceptualization, Methodology, Software, Formal analysis, Investigation, Data curation, Writing -- original draft, Writing -- review & editing, Visualization.
 
 ## Acknowledgments
 

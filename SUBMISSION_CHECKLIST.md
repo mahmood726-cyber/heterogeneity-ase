@@ -30,9 +30,9 @@ The following placeholders MUST be filled before submission:
 
 | Placeholder | Location | Action |
 |---|---|---|
-| `[ORCID_PLACEHOLDER]` | Line 3 of manuscript | Replace with your ORCID (e.g., `0000-0001-2345-6789`) |
+| `0009-0003-7781-4478` | Line 3 of manuscript | Replace with your ORCID (e.g., `0000-0001-2345-6789`) |
 | `[CITY_COUNTRY_PLACEHOLDER]` | Line 5 of manuscript | Replace with your city, country (e.g., `London, United Kingdom`) |
-| `[CORRESPONDING_EMAIL_PLACEHOLDER]` | Line 7 of manuscript | Replace with your email address |
+| `mahmood.ahmad2@nhs.net` | Line 7 of manuscript | Replace with your email address |
 
 ### 2. Author Identity in DESCRIPTION (R package)
 
