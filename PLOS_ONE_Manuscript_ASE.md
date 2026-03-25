@@ -2,7 +2,7 @@
 
 Mahmood Ahmad 0009-0003-7781-4478
 
-Independent Researcher, [CITY_COUNTRY_PLACEHOLDER]
+Royal Free Hospital, London, United Kingdom
 
 Corresponding author email: mahmood.ahmad2@nhs.net
 
