@@ -1,0 +1,96 @@
+{
+  "title": "Adaptive Shrinkage Estimator for Heterogeneity in Small-Sample Meta-Analysis",
+  "slug": "heterogeneity-ase",
+  "author": "Mahmood Ahmad",
+  "date": "2026-03-26",
+  "body": "Can outcome-specific empirical priors from the Cochrane evidence base stabilize heterogeneity estimation in small meta-analyses? The Adaptive Shrinkage Estimator draws on outcome-stratified priors derived from 17,236 Cochrane meta-analyses in the Pairwise70 Heterogeneity Atlas, spanning nine strata defined by outcome type and objectivity classification. ASE computes a precision-weighted average of the DerSimonian-Laird estimate and the empirical prior mean, with conflict-aware detection mechanism that increases data trust when observed heterogeneity deviates from the prior. Simulation across 24 scenarios showed ASE reduced median tau-squared MSE by 14 to 65 percent at k equals 3 (95% CI coverage 93.8 to 96.0 percent) under Hartung-Knapp-Sidik-Jonkman adjustment. Ablation confirmed that HKSJ drove coverage gains while ASE independently reduced tau-squared bias. The method converges to standard DerSimonian-Laird as k grows, with shrinkage weight exceeding 0.99 at k equals 20 and true tau-squared near zero. However, a limitation is that the variance approximation may be imprecise when within-study variances differ substantially across included studies.",
+  "word_count": 156,
+  "sentence_count": 7,
+  "sentences": [
+    {
+      "role": "Question",
+      "text": "Can outcome-specific empirical priors from the Cochrane evidence base stabilize heterogeneity estimation in small meta-analyses?"
+    },
+    {
+      "role": "Dataset",
+      "text": "The Adaptive Shrinkage Estimator draws on outcome-stratified priors derived from 17,236 Cochrane meta-analyses in the Pairwise70 Heterogeneity Atlas, spanning nine strata defined by outcome type and objectivity classification."
+    },
+    {
+      "role": "Method",
+      "text": "ASE computes a precision-weighted average of the DerSimonian-Laird estimate and the empirical prior mean, with conflict-aware detection mechanism that increases data trust when observed heterogeneity deviates from the prior."
+    },
+    {
+      "role": "Primary result",
+      "text": "Simulation across 24 scenarios showed ASE reduced median tau-squared MSE by 14 to 65 percent at k equals 3 (95% CI coverage 93.8 to 96.0 percent) under Hartung-Knapp-Sidik-Jonkman adjustment."
+    },
+    {
+      "role": "Robustness",
+      "text": "Ablation confirmed that HKSJ drove coverage gains while ASE independently reduced tau-squared bias."
+    },
+    {
+      "role": "Interpretation",
+      "text": "The method converges to standard DerSimonian-Laird as k grows, with shrinkage weight exceeding 0.99 at k equals 20 and true tau-squared near zero."
+    },
+    {
+      "role": "Boundary",
+      "text": "However, a limitation is that the variance approximation may be imprecise when within-study variances differ substantially across included studies."
+    }
+  ],
+  "notes": {
+    "app": "HeterogeneityASE R package v0.3.0",
+    "data": "Pairwise70 Heterogeneity Atlas (17,236 Cochrane meta-analyses)",
+    "code": "https://github.com/mahmood726-cyber/heterogeneity-ase",
+    "doi": "",
+    "version": "0.3.0",
+    "date": "2026-03-26",
+    "validation": "DRAFT"
+  },
+  "type": "methods",
+  "primary_estimand": "Tau-squared MSE reduction",
+  "validation": {
+    "status": "pass",
+    "checks": [
+      {
+        "name": "single paragraph",
+        "ok": true,
+        "detail": "Body must not contain blank-line paragraph breaks."
+      },
+      {
+        "name": "sentence count",
+        "ok": true,
+        "detail": "Found 7 sentences."
+      },
+      {
+        "name": "word count",
+        "ok": true,
+        "detail": "Found 156 words."
+      },
+      {
+        "name": "no headings",
+        "ok": true,
+        "detail": "No markdown headings allowed in body."
+      },
+      {
+        "name": "no links",
+        "ok": true,
+        "detail": "No links or DOI links allowed in body."
+      },
+      {
+        "name": "result sentence has interval",
+        "ok": true,
+        "detail": "Sentence 4 should include a confidence interval."
+      },
+      {
+        "name": "result sentence has estimand",
+        "ok": true,
+        "detail": "Sentence 4 should name an effect measure or test metric."
+      },
+      {
+        "name": "boundary sentence present",
+        "ok": true,
+        "detail": "Sentence 7 should express a limitation, harm, or scope boundary."
+      }
+    ]
+  },
+  "schema": "e156-v0.2"
+}
