@@ -1,6 +1,6 @@
 Mahmood Ahmad
 Tahir Heart Institute
-author@example.com
+mahmood.ahmad2@nhs.net
 
 Adaptive Shrinkage Estimator for Heterogeneity in Small-Sample Meta-Analysis
 
