@@ -38,8 +38,8 @@ The following placeholders MUST be filled before submission:
 
 | Placeholder | Location | Action |
 |---|---|---|
-| `CORRESPONDING_EMAIL_PLACEHOLDER` | `DESCRIPTION` line 7 | Replace with your email |
-| `ORCID_PLACEHOLDER` | `DESCRIPTION` line 9 | Replace with your ORCID |
+| `CORRESPONDING_mahmood.ahmad2@nhs.net` | `DESCRIPTION` line 7 | Replace with your email |
+| `0009-0003-7781-4478` | `DESCRIPTION` line 9 | Replace with your ORCID |
 
 ### 3. Zenodo DOI (3 occurrences in manuscript)
 
