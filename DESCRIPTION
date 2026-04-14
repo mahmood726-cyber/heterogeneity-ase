@@ -4,9 +4,9 @@ Title: Adaptive Shrinkage Estimator for Meta-Analysis Heterogeneity
 Version: 0.3.0
 Depends: R (>= 4.0.0)
 Authors@R: person("Mahmood Ul", "Hassan",
-    email = "CORRESPONDING_EMAIL_PLACEHOLDER",
+    email = "CORRESPONDING_mahmood.ahmad2@nhs.net",
     role = c("aut", "cre"),
-    comment = c(ORCID = "ORCID_PLACEHOLDER"))
+    comment = c(ORCID = "0009-0003-7781-4478"))
 Description: Implements a conflict-aware Empirical Bayes shrinkage estimator
     for inter-study heterogeneity (tau-squared) in meta-analysis. Uses
     outcome-specific priors derived from 17,236 Cochrane meta-analyses
