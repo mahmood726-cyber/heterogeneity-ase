@@ -68,7 +68,7 @@ Rscript run_tests.R
 
 ## Manuscript
 
-Hassan MU. The adaptive shrinkage estimator for heterogeneity in small-sample meta-analysis: an empirical Bayes approach using outcome-specific priors from 17,066 Cochrane meta-analyses. [Manuscript in preparation for PLOS ONE].
+Hassan MU. The adaptive shrinkage estimator for heterogeneity in small-sample meta-analysis: an empirical Bayes approach using outcome-specific priors from 17,066 Cochrane meta-analyses. [Manuscript in preparation].
 
 ## License
 
